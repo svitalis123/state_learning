@@ -1,22 +1,21 @@
-
 import './App.css';
+import Accordion from './components/Accordion';
+import Form from './components/Form';
+import Names from './components/Names';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>
-          What is Your Favourite day.
-        </h1>
-       <form>
-        <textarea>
+       {/* import our form component handling reactint to input with state */}
+       <Form />
 
-        </textarea>
-        <br/>
-        <button>
-          Submit
-        </button>
-       </form>
+       {/* state structure */}
+       <Names />
+
+       {/* share state between components */}
+
+       <Accordion />
       </header>
     </div>
   );

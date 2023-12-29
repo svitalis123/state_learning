@@ -1,5 +1,6 @@
 import './App.css';
 import Accordion from './components/Accordion';
+import Chat from './components/Chat';
 import Form from './components/Form';
 import Names from './components/Names';
 
@@ -16,6 +17,9 @@ function App() {
        {/* share state between components */}
 
        <Accordion />
+
+       {/* preserving and resetting state */}
+       <Chat />
       </header>
     </div>
   );

@@ -12,3 +12,5 @@
 ```This help keeping our code DRY Don't REpeat Yourself```
 - Sharing state Between components
 ``` when components are to react the same time to a state it's best to remove state and take it to the nearest parent they share```
+- Preserving and resetting state
+``` React needs to know what to update what to recreate from scratch, what to discard and what should remain as it is```

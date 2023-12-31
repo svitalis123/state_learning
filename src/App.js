@@ -3,6 +3,7 @@ import Accordion from './components/Accordion';
 import Chat from './components/Chat';
 import Form from './components/Form';
 import Names from './components/Names';
+import Todo from './components/Todo';
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
 
        {/* preserving and resetting state */}
        <Chat />
+
+       {/* extracting state logic to reducer */}
+       <Todo />
       </header>
     </div>
   );

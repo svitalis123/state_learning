@@ -3,6 +3,7 @@ import Accordion from './components/Accordion';
 import Chat from './components/Chat';
 import Form from './components/Form';
 import Names from './components/Names';
+import Task from './components/Task';
 import Todo from './components/Todo';
 
 function App() {
@@ -23,7 +24,9 @@ function App() {
        <Chat />
 
        {/* extracting state logic to reducer */}
-       <Todo />
+       {/* <Todo /> */}
+       <Task />
+
       </header>
     </div>
   );

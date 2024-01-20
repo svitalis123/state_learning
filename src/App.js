@@ -3,6 +3,8 @@ import Accordion from './components/Accordion';
 import Chat from './components/Chat';
 import Form from './components/Form';
 import Names from './components/Names';
+import Structure from './components/Structure';
+import Structure2 from './components/Structure2';
 import Task from './components/Task';
 import Todo from './components/Todo';
 
@@ -27,6 +29,10 @@ function App() {
        {/* <Todo /> */}
        <Task />
 
+        {/* passing data deeply with context */}
+       <Structure />
+
+        <Structure2 />
       </header>
     </div>
   );

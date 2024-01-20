@@ -16,3 +16,5 @@
 ``` React needs to know what to update what to recreate from scratch, what to discard and what should remain as it is```
 - Extracting state logic to reducer
 ``` State management can be overwhelming if you have lots of state updates across many event handlers for this you put together all the state update outside the component into a single function we call this funcion a reducer it is a pure function. the event handlers become concise because they focus on actions while the reducer function focuses on how state should update```
+- Passing data deeply with context
+``` sometimes when passing props through many components can be verbose(wordy) or many components might be needing same props. so what is the solution? the use context solves this by enabling each component know it's level from the parent and thus props can be accessed by every tree within a tree```

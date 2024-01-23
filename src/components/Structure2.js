@@ -55,7 +55,7 @@ const Post = ({title, content}) => {
         {title}
       </Heading2>
       <p>
-        content
+        {content}
       </p>
     </Section2>
   )

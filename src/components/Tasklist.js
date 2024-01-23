@@ -16,7 +16,6 @@ function Tasklist({
     setediting(false)
   }
 
-  console.log(tasks,naem)
   const handleche = (e, id) => {
     const uptask = naem.map((n) => {
       if(n.id === id) {

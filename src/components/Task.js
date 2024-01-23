@@ -38,7 +38,6 @@ function Task() {
   // usethe usereducer, it returns current state and dispatch function whil it accepts initial state and reducer
   const [tasks, dispatch] = useReducer(reducer, initialTaks);
   let intialindex = tasks.length + 1;
-  console.log(tasks)
   const handleAdd = (text) => {
     dispatch({
       type: "added",

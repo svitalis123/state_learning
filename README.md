@@ -21,4 +21,5 @@
 
 - Scaling up with reducer and context
 ```Reducer help you consolidate state update while usecontext help you passing props through manay components we can compine both to manage complex screen state```
-
+- Refractoring the code
+```i need to move the reducer to the context creator````
